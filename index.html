@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>Girl Develop It - Teaching Materials</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  .status-filter label {
+  	margin-left: 10px;
+  	padding: 5px;
+  	border-radius: 4px;
+  }
+  .tag {
+  	margin-right: 5px;
+  }
+  .tag span {
+  	margin-left: 3px;
+  }
+  .links {
+    padding-left: 20px;
+  }
+  .links a:after {
+  	display: block;
+  	content:'';
+  	padding-left: 5px;
+  	padding-right:5px;
+  }
+
+  .links a:last-child:after {
+     content: "";   
+  }
+
+  .reset-btn {
+  	float: right;
+  }
+
+  table {
+  	margin-top: 10px;
+  }
+  </style>
+ </head>
+ <body>
+
+	<div class="container">
+		<h1 class="page-header">Girl Develop It - Teaching Materials</h1>
+		
+    	<form class="form-inline" style="text-align: left;">
+
+    		
+    		<fieldset class="status-filter">
+    			Status:
+    			<label class="bg-warning"><input type="checkbox" value="unreviewed" checked>Unreviewed</input></label>
+    			<label class="bg-danger"><input type="checkbox" value="doesntmeet">Does not requirements</input></label>
+    			<label class="bg-info" ><input type="checkbox" value="meetsreq" checked>Meets requirements</input></label>
+    			<label class="bg-success"><input type="checkbox" value="meetsrec" checked> ...and recommendations</input></label>
+    		</fieldset>
+    		<br>
+    		<button type="button" class="reset-btn btn btn-default btn-sm">Reset filters</button>
+    		<fieldset class="tag-filter">
+    		</fieldset>
+    		
+		</form>
+	
+		<table class="materials-table table table-bordered">
+			<thead>
+				<tr>
+					<th>Material
+					<th>Duration
+					<th>Details
+					<th style="width:150px;">Links
+                    <!--<th>Sequence-->
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="materials.js"></script>;
+	<script>
+	
+	function renderAll(materials) {
+		var tags = [];
+
+		function filterMaterials(tag) {
+			var $rows = $('.material');
+			if (!tag) {
+				$rows.show();
+			} else {
+				$rows.hide();
+				$rows.each(function() {
+					if ($(this).find('[value=' + tag + ']').length) {
+						$(this).show();
+					}
+				});
+			}
+			
+		}
+
+		function renderTags(tags) {
+			var makeTag = function(tag) {
+				var $tag = $('<label>').addClass('tag');
+				var $input = $('<input>')
+					.attr("type", "radio")
+					.attr("name", "filter")
+					.attr("value", tag)
+					.appendTo($tag);
+				$input.on('click', function() {
+					renderMaterials(materials, {tag: tag});
+				})
+				var $span = $('<span>')
+					.text(tag)
+					.appendTo($tag);
+				$(".tag-filter").append($tag);
+			};
+
+			$.each(tags, function(ind, tag) {
+				makeTag(tag);
+			});
+		}
+		
+		var getTag = function() {
+			return $('.tag-filter input:checked').val();
+		};
+
+		var getStatuses = function() {
+			var statuses = [];
+			$('.status-filter input:checked').each(function() {
+				statuses.push($(this).val());
+			});
+			return statuses;
+		};
+
+		function renderMaterials(materials, options) {
+			options = options || {};
+			var tag = options.tag || getTag() || null;
+			var sequence = options.sequence || null;
+			var statuses = options.statuses || getStatuses() || null;
+
+			var $materialsTable = $('.materials-table tbody');
+			$materialsTable.empty();
+			$.each(materials, function(i, material) {
+
+				if (sequence && material.sequence !== sequence) {
+					return;
+				}
+				if (tag && material.tags.indexOf(tag) < 0) {
+					return;
+				}
+				if (statuses && statuses.indexOf(material.status) < 0) {
+					return;
+				}
+				var $row = $("<tr>");
+				$row.addClass('material');
+				var $titleTd = $('<td>')
+					.html('<h5>' + material.title + '</h5>')
+					.appendTo($row);
+
+				var statusMap = {
+					'unreviewed': 
+						{'text': 'Not reviewed.', 'class': 'bg-warning'},
+					'doesntmeet': 
+						{'text': 'Does not meet requirements.', 'class': 'bg-danger'},
+					'meetsreq': 
+						{'text': 'Meets requirements.', 'class': 'bg-info'},
+					'meetsrec': 
+						{'text': 'Meets requirements and recommendations.', 'class': 'bg-success'},
+
+				}
+				$('<p>').addClass(statusMap[material.status]['class'])
+						.text(statusMap[material.status].text)
+						.appendTo($titleTd);
+				$('<td>')
+					.text(material.duration)
+					.appendTo($row);
+
+				var links = [];
+				if (material.studentL) {
+					links.push($('<a>For students</a>').attr('href', material.studentL));
+				}
+				if (material.editL) {
+					links.push($('<a>For teachers</a>').attr('href', material.editL));
+				}
+				if (material.teacherL) {
+					links.push($('<a>For teachers</a>').attr('href', material.editL));
+				}
+				if (material.reviewL) {
+					links.push($('<a>Review</a>').attr('href', material.reviewL));
+				}
+
+				var $links = $('<ul>').addClass('links');
+				$.each(links, function(ind, link) {
+					$links.append($('<li>').append(link));
+				});
+
+				var $sequenceA = $('<span></span>');
+				if (material.sequence) {
+					var $sequenceA = $('<a href="javascript:void(0)"> Part of ' + material.sequence + ' sequence.</a>')
+						.on('click', function() {
+							renderMaterials(materials, {sequence: material.sequence});
+						});
+				}
+				
+				$('<span>Part of ' + material.sequence + 'sequence</span>')
+				$('<td>')
+					.append(material.covers)
+					.append('<br>')
+					.append($sequenceA)
+					.append('<br>' + '<em>Prereqs: ' + material.prereqs + '</em>')
+					.appendTo($row);
+
+				$('<td>')
+					.append($links)
+					.appendTo($row);
+
+				$('<td>')
+					
+					//.appendTo($row);
+				$materialsTable.append($row);
+			});
+		}
+
+
+		// Collect tags
+		for (var i = 0; i < materials.length; i++) {
+			var material = materials[i];
+			for (var t = 0; t < material.tags.length; t++) {
+				if (tags.indexOf(material.tags[t]) < 0) {
+					tags.push(material.tags[t]);
+				}
+			}
+		}
+		renderTags(tags);
+		renderMaterials(materials);
+		$('.reset-btn').on('click', function() {
+			renderMaterials(materials);
+		});
+
+		$('.status-filter input').on('click', function() {
+			renderMaterials(materials);
+		});
+	}
+
+	renderAll(materials);
+	</script>
+ </body>
+</html>
