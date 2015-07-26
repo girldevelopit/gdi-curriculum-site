@@ -11,6 +11,7 @@
   	border-radius: 4px;
   }
   .tag {
+  	margin-left: 5px;
   	margin-right: 5px;
   }
   .tag span {
@@ -42,7 +43,7 @@
  <body>
 
 	<div class="container">
-		<h1 class="page-header">Girl Develop It - Teaching Materials</h1>
+		<h1 class="page-header">Girl Develop It - Teaching materials</h1>
 		
     	<form class="form-inline" style="text-align: left;">
 
@@ -68,12 +69,20 @@
 					<th>Duration
 					<th>Details
 					<th style="width:150px;">Links
-                    <!--<th>Sequence-->
 				</tr>
 			</thead>
 			<tbody></tbody>
 		</table>
 		
+
+		<p>
+			Want to submit your chapter's materials for review here?
+			Submit a pull request that adds the details
+			to <a href="https://github.com/girldevelopit/gdi-curriculum-site/blob/master/materials.js">materials.js</a>.
+			If you haven't started making it yet,
+			<a href="https://github.com/girldevelopit/gdi-slides-template">start with this slides template</a>.
+		</p>
+
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -186,7 +195,9 @@
 					links.push($('<a>For teachers</a>').attr('href', material.editL));
 				}
 				if (material.reviewL) {
-					links.push($('<a>Review</a>').attr('href', material.reviewL));
+					links.push($('<a>Read review</a>').attr('href', material.reviewL));
+				} else {
+					links.push($('<a>Review this</a>').attr('href', 'howtoreview.html').attr('target', '_blank'));
 				}
 
 				var $links = $('<ul>').addClass('links');
@@ -226,7 +237,7 @@
 		for (var i = 0; i < materials.length; i++) {
 			var material = materials[i];
 			for (var t = 0; t < material.tags.length; t++) {
-				if (tags.indexOf(material.tags[t]) < 0) {
+				if (tags.indexOf(material.tags[t]) < 0 && material.tags[t]) {
 					tags.push(material.tags[t]);
 				}
 			}

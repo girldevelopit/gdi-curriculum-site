@@ -1,3 +1,21 @@
+/**
+ This array contains one object for each teaching material.
+ To add a new material, please add an object to end of array
+ and submit a pull request.
+
+ A description of the properties:
+ title:     "", // A string, the title of the class
+ studentL:  "", // A string, a URL to a publicly viewable version of the slides
+ editL:     "", // A string, a URL to the editable version of the slides (usually github)
+ teacherL:  "", // A string, a URL to a teacher's guide (if exists)
+ duration:  N,  // A number representing average duration in hours
+ covers:    "", // A sentence describing the main topics covered
+ prereqs:   "", // A string describing prereqs, "None" if there are none.
+ tags:      [], // An array of high-level tags - try to use ones already used, if they apply
+ reviewL:   "", // A link to an external review of the content, if one has been done
+ sequence:  "", // A string - the sequence this belongs to, if any - like "GDISF" or "Minn-RoR"
+ status:    "", // A string, representing the review status - either "unreviewed", "doesntmeet", "meetsreq", or "meetsrec"
+ **/
 var materials = [
    {
     title:     "Intro to Web Concepts",
@@ -397,9 +415,9 @@ var materials = [
     covers:    "Covers using Java from command line. Teaches variables, conditionals, arrays, objects, and object-oriented programming principles.",
     prereqs:   "None",
     tags:      ["java"],
-    reviewL:   "",
+    reviewL:   "https://docs.google.com/a/girldevelopit.com/document/d/1_zBSIipoHpKUlw8pQ91q2Hm2LKq67YRwT7NC-oupVIo/edit?usp=sharing",
     sequence:  "",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Data Modeling",
@@ -436,9 +454,9 @@ var materials = [
     covers:    "Covers files, directories, file editors, searching files.",
     prereqs:   "None",
     tags:      ["cli"],
-    reviewL:   "",
+    reviewL:   "https://docs.google.com/document/d/12ucWXpZB606yekXAVg_uEynD8jYKJ05-VC4TYY27kOg/edit",
     sequence:  "",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Web Hosting",
