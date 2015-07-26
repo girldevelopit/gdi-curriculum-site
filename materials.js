@@ -162,8 +162,8 @@ var materials = [
    },
    {
     title:     "JS 101: Intro to JS (Self-paced)",
-    studentL:  "http://khanacademy.org/programming",
-    teacherL:  "https://docs.google.com/document/d/1lmDq9YlwSXNEdPpUdX9HOKBWyMPVzkWC1v8ThSD485M/edit",
+    studentL:  "http://www.teaching-materials.org/javascript-selfpaced/",
+    teacherL:  "http://www.teaching-materials.org/javascript-selfpaced/lessonplan.html",
     editL:     "",
     duration:  12,
     covers:    "Covers JavaScript variables, functions, logic, loops, conditionals, and arrays, along with the ProcessingJS library.",
