@@ -92,21 +92,6 @@
 	function renderAll(materials) {
 		var tags = [];
 
-		function filterMaterials(tag) {
-			var $rows = $('.material');
-			if (!tag) {
-				$rows.show();
-			} else {
-				$rows.hide();
-				$rows.each(function() {
-					if ($(this).find('[value=' + tag + ']').length) {
-						$(this).show();
-					}
-				});
-			}
-			
-		}
-
 		function renderTags(tags) {
 			var makeTag = function(tag) {
 				var $tag = $('<label>').addClass('tag');
@@ -144,6 +129,7 @@
 		function renderMaterials(materials, options) {
 			options = options || {};
 			var tag = options.tag || getTag() || null;
+			console.log(tag);
 			var sequence = options.sequence || null;
 			var statuses = options.statuses || getStatuses() || null;
 
@@ -244,7 +230,9 @@
 		}
 		renderTags(tags);
 		renderMaterials(materials);
+
 		$('.reset-btn').on('click', function() {
+			$('.tag-filter input').removeAttr('checked');
 			renderMaterials(materials);
 		});
 
