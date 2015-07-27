@@ -111,7 +111,7 @@ var materials = [
    {
     title:     "HTML101: HTML & CSS (Self-paced)",
     studentL:  "http://khanacademy.org/html-css",
-    teacherL:  "https://docs.google.com/document/d/1SSXPT93kfaupU2fYURBHdVngNbQrVwTb0ghZeGAEh98/edit",
+    teacherL:  "http://www.teaching-materials.org/htmlcss-selfpaced/lessonplan.html",
     editL:     "",
     duration:  10,
     covers:    "Covers basic HTML tags (links, images, tables, forms), CSS selectors (level 3), CSS text properties, and CSS layout.",
@@ -202,7 +202,7 @@ var materials = [
    {
     title:     "JS 200: JS & the Web (Self-paced)",
     studentL:  "http://khanacademy.org/html-css-js",
-    teacherL:  "https://docs.google.com/document/d/17vCxxjNWPVrI9CdEoEVpLiSsHfoaqY7Q4mUzdqgUsgo/edit#heading=h.o80tuo8wfhol",
+    teacherL:  "http://www.teaching-materials.org/jsweb-selfpaced/lessonplan.html",
     editL:     "",
     duration:  6,
     covers:    "Covers DOM access, DOM modification, DOM events, and DOM animation.",
