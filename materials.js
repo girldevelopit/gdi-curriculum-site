@@ -110,7 +110,7 @@ var materials = [
    },
    {
     title:     "HTML101: HTML & CSS (Self-paced)",
-    studentL:  "http://khanacademy.org/html-css",
+    studentL:  "http://www.teaching-materials.org/htmlcss-selfpaced/",
     teacherL:  "http://www.teaching-materials.org/htmlcss-selfpaced/lessonplan.html",
     editL:     "",
     duration:  10,
@@ -201,7 +201,7 @@ var materials = [
    },
    {
     title:     "JS 200: JS & the Web (Self-paced)",
-    studentL:  "http://khanacademy.org/html-css-js",
+    studentL:  "http://www.teaching-materials.org/jsweb-selfpaced/",
     teacherL:  "http://www.teaching-materials.org/jsweb-selfpaced/lessonplan.html",
     editL:     "",
     duration:  6,
