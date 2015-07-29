@@ -62,12 +62,12 @@ var materials = [
     teacherL:  "",
     editL:    "https://github.com/girldevelopit/gdi-core-intermediate-html-css",
     duration:  8,
-    covers:    "Covers HTML 5 and CSS 3 - including HTML5 elements, transformations, transitions, animation, advanced selectors, and responsive design.",
+    covers:    "Covers HTML 5 and CSS 3, standard design practices like reset stylesheets, fixed nav menus, hero images, web fonts, animations, plus the basics of responsive design.",
     prereqs:   "Basic HTML and CSS",
     tags:      ["frontend", "html", "css"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "meetsrec"
    },
    {
     title:     "Web Accessibility",
@@ -613,19 +613,6 @@ var materials = [
     reviewL:   "https://docs.google.com/document/d/1M7dVdnuYD0E6_Qqw-jYon7y_NVQCUrL0T9GXK2WXMMs/edit?usp=sharing",
     sequence:  "",
     status:    "doesntmeet"
-   },
-   {
-    title:     "Intermediate HTML/CSS & Responsive Design",
-    studentL:  "",
-    teacherL:  "",
-    editL:     "https://github.com/gdirdu/gdi-rdu-intermediate-htmlcss",
-    duration:  8,
-    covers:    "Covers CSS3 properties, CSS transitions, CSS transforms, and responsive web design best practices, with mention of SaSS/LESS.",
-    prereqs:   "HTML/CSS fundamentals.",
-    tags:      ["html", "css", "design"],
-    reviewL:   "https://docs.google.com/document/d/1t3Kt1qsOr4AyyOQD9GZYQ60Dh_SoLgmbdxJ8FMvhZys/edit?usp=sharing",
-    sequence:  "",
-    status:    "meetsrec"
    },
    {
     title:     "Intro to PHP/MySQL",
