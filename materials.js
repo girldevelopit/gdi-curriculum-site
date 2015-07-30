@@ -873,5 +873,31 @@ var materials = [
     reviewL:   "https://docs.google.com/document/d/1kT8LzrraKdKISQfR_45bbggHZjJFnle6JNPUeJnU76A/edit#",
     sequence:  "",
     status:    "unreviewed"
+   },
+   {
+    title:     "Intro to Programming Concepts",
+    studentL:  "http://www.gdiannarbor.com/events/0715_programming.html#/",
+    teacherL:  "",
+    editL:     "https://github.com/gdiannarbor/intro-programming-concepts",
+    duration:  "Unknown",
+    covers:    "Covers the basics of common programming concepts, structures, and flow.",
+    prereqs:   "None",
+    tags:      ["frontend", "backend"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
+   },
+   {
+    title:     "Intro to Programming Concepts",
+    studentL:  "",
+    teacherL:  "",
+    editL:     "https://github.com/gdiboulder/gdi-boulder-intro-programming-concepts",
+    duration:  "Unknown",
+    covers:    "Covers the basics of common programming concepts, structures, and flow.",
+    prereqs:   "None",
+    tags:      ["frontend", "backend"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
    }
 ];
