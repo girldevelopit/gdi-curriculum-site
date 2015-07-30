@@ -28,7 +28,7 @@ var materials = [
     tags:      ["frontend", "backend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:    "meetsreq"
+    status:    "unreviewed"
    },
    {
     title:     "Intro to HTML/CSS",
@@ -408,7 +408,7 @@ var materials = [
    },
    {
     title:     "Intro to OOP with Java",
-    studentL:  "",
+    studentL:  "http://www.gdiannarbor.com/events/intro-java/",
     teacherL:  "",
     editL:     "https://github.com/gdiannarbor/intro-oop-java",
     duration:  8,
@@ -759,11 +759,11 @@ var materials = [
    },
    {
     title:     "Intro to Python",
-    studentL:  "http://calebsmith.github.io/gdi-intro-python/",
+    studentL:  "http://www.gdiannarbor.com/events/intro-python/#/",
     teacherL:  "",
     editL:     "https://github.com/gdiannarbor/intro-python",
     duration:  8,
-    covers:    "Covers using Python from the shell, variables, loops, functions, conditionals, data structures, object-oriented programming.",
+    covers:    "Covers using Python 3 from the shell, variables, loops, functions, conditionals, data structures, and functional programming.",
     prereqs:   "None",
     tags:      ["python"],
     reviewL:   "",
@@ -863,14 +863,14 @@ var materials = [
    },
    {
     title:     "Intro to Responsive Web Design",
-    studentL:  "",
+    studentL:  "http://gdidetroit.com/intro-responsive/#/",
     teacherL:  "",
     editL:     "https://github.com/leeanndrees/gdi-responsive",
     duration:  4,
     covers:    "Covers fluid grids, flexible images, CSS media queries, and Foundation framework.",
     prereqs:   "HTML/CSS fundamentals.",
     tags:      ["html", "css"],
-    reviewL:   "https://docs.google.com/document/d/1kT8LzrraKdKISQfR_45bbggHZjJFnle6JNPUeJnU76A/edit#",
+    reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
    }
