@@ -873,5 +873,18 @@ var materials = [
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
+   },
+   {
+    title:     "Intro to AngularJS",
+    studentL:  "http://ahoef.co/gdi-angular/slides",
+    teacherL:  "",
+    editL:     "https://github.com/ahoef/gdi-angular",
+    duration:  4,
+    covers:    "Includes overview of MVC frameworks and covers expressions, built-in directives, controllers, $scope, dependency injection, and the future of Angular 2.0",
+    prereqs:   "HTML, basic JavaScript",
+    tags:      ["frontend", "javascript", "angular"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
    }
 ];
