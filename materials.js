@@ -886,5 +886,18 @@ var materials = [
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
+   },
+   {
+    title:     "Intro to Programming Concepts",
+    studentL:  "",
+    teacherL:  "",
+    editL:     "https://github.com/gdiboulder/gdi-boulder-intro-programming-concepts",
+    duration:  "Unknown",
+    covers:    "Covers the basics of common programming concepts, structures, and flow.",
+    prereqs:   "None",
+    tags:      ["frontend", "backend"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
    }
 ];
