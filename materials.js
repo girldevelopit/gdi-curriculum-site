@@ -899,5 +899,18 @@ var materials = [
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
+   },
+   {
+    title:     "Intro to HTML/CSS (Project-Based)",
+    studentL:  "http://gdiboston.github.io/gdi-core-html-css",
+    teacherL:  "https://github.com/gdiboston/gdi-core-html-css/blob/master/README.md",
+    editL:     "https://github.com/gdiboston/gdi-core-html-css",
+    duration:  8,
+    covers:    "Covers basic HTML tags with an emphasis on HTML5, CSS positioning, display properties, use of CodePen, and coding a single-page site from a design.",
+    prereqs:   "None",
+    tags:      ["frontend", "html", "css"],
+    reviewL:   "",
+    sequence:  "GDIBoston",
+    status:    "unreviewed"
    }
 ];
