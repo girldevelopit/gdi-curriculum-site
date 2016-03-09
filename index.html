@@ -129,7 +129,7 @@
 		function renderMaterials(materials, options) {
 			options = options || {};
 			var tag = options.tag || getTag() || null;
-			console.log(tag);
+
 			var sequence = options.sequence || null;
 			var statuses = options.statuses || getStatuses() || null;
 
@@ -178,7 +178,7 @@
 					links.push($('<a>For teachers</a>').attr('href', material.editL));
 				}
 				if (material.teacherL) {
-					links.push($('<a>For teachers</a>').attr('href', material.editL));
+					links.push($('<a>For teachers</a>').attr('href', material.teacherL));
 				}
 				if (material.reviewL) {
 					links.push($('<a>Read review</a>').attr('href', material.reviewL));
