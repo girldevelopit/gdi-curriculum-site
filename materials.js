@@ -925,5 +925,18 @@ var materials = [
     reviewL:   "",
     sequence:  "GDIBoston",
     status:    "unreviewed"
-   }
+   },
+   {
+    title:     "Introduction to Programming with Ruby",
+    studentL:  "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/",
+    teacherL:  "https://github.com/kcjonesevans/gdidayton-intro-ruby",
+    editL:     "https://github.com/kcjonesevans/gdidayton-intro-ruby",
+    duration:  12,
+    covers:    "Variables, methods, datatypes, loops, conditionals, control flow, O-O intro, writing classes. Focus on core CS concepts.",
+    prereqs:   "None",
+    tags:      ["ruby"],
+    reviewL:   "",
+    sequence:  "GDIDayton",
+    status:    "unreviewed"
+   },
 ];
