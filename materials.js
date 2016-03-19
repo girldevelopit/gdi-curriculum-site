@@ -719,6 +719,19 @@ var materials = [
     status:    "unreviewed"
    },
    {
+    title:     "Intro to AngularJS",
+    studentL:  "http://danlucas.github.io/gdi-angular-intro-slides/#/",
+    teacherL:  "",
+    editL:     "https://github.com/danlucas/gdi-angular-intro-slides",
+    duration:  4,
+    covers:    "Covers AngularJS basics, data binding, modules, controllers, filters, and directives.",
+    prereqs:   "HTML, JS DOM API.",
+    tags:      ["frontend", "javascript", "angular"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
+   },
+   {
     title:     "Web hosting 101",
     studentL:  "http://mathemagica.github.io/gdi-hosting-in-30-minutes/",
     teacherL:  "",
@@ -937,6 +950,19 @@ var materials = [
     tags: ["command-line"],
     reviewL: "",
     sequence: "GDIAustin",
+    status: "unreviewed"
+   },
+   {
+    title: "Unix Command Line Basics",
+    studentL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    teacherL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    editL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    duration: 2,
+    covers: "Cover basics of directory and file traversal, finding and searching for files and content, and using many of the powerful tools that come along with most Unix Shells. If we’re being totally honest, this is an Intro to Unix, but it’s from the angle of ‘getting things done’ rather than technical depth or purity",
+    prereqs: "None",
+    tags: ["command-line"],
+    reveiwL: "",
+    sequence: "GDIMinneapolis",
     status: "unreviewed"
    }
 ];
