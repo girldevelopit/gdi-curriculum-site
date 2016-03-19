@@ -912,5 +912,18 @@ var materials = [
     reviewL: "",
     sequence: "GDIAtlanta",
     status: "unreviewed"
+   },
+   {
+     title:     "Photoshop for Web Design",
+     studentL:  "http://casalett.net/gdi-photoshop/",
+     teacherL:  "",
+     editL:     "https://www.dropbox.com/s/kjv69kr4ihs7sv9/gdi-photoshop-for-web-design.zip?dl=0",
+     duration:  4,
+     covers:    "Workspaces, file types, layers, image manipulation overview, artboards, layer comps, exporting assets",
+     prereqs:   "None",
+     tags:      ["photoshop, design"],
+     reviewL:   "",
+     sequence:  "GDIDayton",
+     status:    "unreviewed"
    }
 ];
