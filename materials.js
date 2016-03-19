@@ -945,7 +945,7 @@ var materials = [
      teacherL:  "",
      editL:     "https://www.dropbox.com/s/kjv69kr4ihs7sv9/gdi-photoshop-for-web-design.zip?dl=0",
      duration:  4,
-     covers:    "Workspaces, files types, layers, image manipulation overview, artboards, layer comps, exporting assets",
+     covers:    "Workspaces, file types, layers, image manipulation overview, artboards, layer comps, exporting assets",
      prereqs:   "None",
      tags:      ["photoshop, design"],
      reviewL:   "",
