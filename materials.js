@@ -939,4 +939,17 @@ var materials = [
     sequence:  "GDIDayton",
     status:    "unreviewed"
    },
+   {
+    title: "Intro to Command Line",
+    studentL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    teacherL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    editL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    duration: 2,
+    covers: "Terminal terminology. Working in directories including pwd, cd, ls, flags, mkdir, rmdir. Working with files including cat, more, less, touch, rm. Permissions management. Standard output and input, pipes, grep and filters. Processes. Accessing commands in history. Examples of real-world use of terminal.",
+    prereqs: "None",
+    tags: ["command-line"],
+    reviewL: "",
+    sequence: "GDIAustin",
+    status: "unreviewed"
+   }
 ];
