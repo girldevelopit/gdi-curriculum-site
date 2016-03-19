@@ -952,5 +952,4 @@ var materials = [
      sequence:  "GDIDayton",
      status:    "unreviewed"
    }
-   }
 ];
