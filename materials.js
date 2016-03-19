@@ -951,5 +951,18 @@ var materials = [
     reviewL: "",
     sequence: "",
     status: "unreviewed"
+   },
+   {
+    title: "Intro to Ruby",
+    studentL: "http://kyfast.net/gdi-ruby/#/",
+    teacherL: "http://kyfast.net/gdi-ruby/#/",
+    editL: "https://github.com/KyFaSt/gdi-ruby",
+    duration: 10,
+    covers: "The command line and why we use it. Strings, Arrays, Variables, Objects, Loops, Files. Object concepts like Messages, Methods, and Classes. How to run your Ruby code interactively (irb) or from a file. Writing command line programs to run on your own computer",
+    prereqs: "None",
+    tags: ["ruby"],
+    reviewL: "",
+    sequence: "GDIAtlanta",
+    status: "unreviewed"
    }
 ];
