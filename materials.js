@@ -872,7 +872,7 @@ var materials = [
     tags:      ["frontend", "javascript", "angular"],
     reviewL:   "",
     sequence:  "",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Intro to Programming Concepts",
