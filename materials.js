@@ -135,19 +135,6 @@ var materials = [
     status:     "unreviewed"
    },
    {
-    title:     "CSS Tools & Techniques",
-    studentL:  "http://www.teaching-materials.org/csstools/",
-    teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/csstools",
-    duration:  3,
-    covers:    "Covers best practices for cross-browser CSS, CSS media queries, and CSS grids/resets/frameworks.",
-    prereqs:   "Basic CSS",
-    tags:      ["frontend", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
-   },
-   {
     title:     "JS101: Intro to JS (Lecture-taught)",
     studentL:  "http://www.teaching-materials.org/javascript/",
     teacherL:  "",
