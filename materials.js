@@ -80,7 +80,7 @@ var materials = [
     tags:      ["frontend", "accessibility"],
     reviewL:   "https://drive.google.com/open?id=1YWhCzFDQa_b61wOEtE7HftYo13oEXFXd2V5dXLU-muE",
     sequence:  "Featured",
-    status:     "meetsreq"
+    status:     "doesntmeet"
    },
    {
     title:     "Intro to Git/Github",
