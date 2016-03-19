@@ -96,19 +96,6 @@ var materials = [
     status:     "doesntmeet"
    },
    {
-    title:     "HTML101: HTML/CSS (Lecture-taught)",
-    studentL:  "http://www.teaching-materials.org/htmlcss-1day/",
-    teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/htmlcss-1day",
-    duration:  10,
-    covers:    "Covers HTML tags (links, tables, forms, media), CSS selectors, and CSS positioning.",
-    prereqs:   "None",
-    tags:      ["frontend", "html", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
-   },
-   {
     title:     "HTML101: HTML & CSS (Self-paced)",
     studentL:  "http://www.teaching-materials.org/htmlcss-selfpaced/",
     teacherL:  "http://www.teaching-materials.org/htmlcss-selfpaced/lessonplan.html",
@@ -120,19 +107,6 @@ var materials = [
     reviewL:   "",
     sequence:  "GDISF",
     status:    "unreviewed"
-   },
-   {
-    title:     "CSS3",
-    studentL:  "http://www.teaching-materials.org/css3/#slide1",
-    teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/css3",
-    duration:  5,
-    covers:    "Covers CSS3 selectors and CSS3 properties.",
-    prereqs:   "Basic CSS",
-    tags:      ["frontend", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
    },
    {
     title:     "JS101: Intro to JS (Lecture-taught)",
@@ -444,32 +418,6 @@ var materials = [
     reviewL:   "https://docs.google.com/document/d/12ucWXpZB606yekXAVg_uEynD8jYKJ05-VC4TYY27kOg/edit",
     sequence:  "",
     status:    "doesntmeet"
-   },
-   {
-    title:     "Web Hosting",
-    studentL:  "http://www.teaching-materials.org/hosting/slides.html",
-    teacherL:  "",
-    editL:     "https://github.com/gdisf/teaching-materials/tree/master/hosting",
-    duration:  1,
-    covers:    "Covers type of web hosting and what to look for in a good host.",
-    prereqs:   "None",
-    tags:      ["backend"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
-   },
-   {
-    title:     "Web Domains",
-    studentL:  "http://www.teaching-materials.org/domains/slides.html",
-    teacherL:  "",
-    editL:     "https://github.com/gdisf/teaching-materials/tree/master/domains",
-    duration:  1,
-    covers:    "Covers how domain names work and how to register them.",
-    prereqs:   "None",
-    tags:      ["backend"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
    },
    {
     title:     "Version control & Git",
