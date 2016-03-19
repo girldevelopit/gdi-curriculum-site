@@ -904,7 +904,7 @@ var materials = [
     title:     "Intro to HTML/CSS (Project-Based)",
     studentL:  "http://gdiboston.github.io/gdi-core-html-css",
     teacherL:  "https://github.com/gdiboston/gdi-core-html-css/blob/master/README.md",
-    editL:     "https://github.com/gdiboston/gdi-core-html-css",
+    editL:     "",
     duration:  8,
     covers:    "Covers basic HTML tags with an emphasis on HTML5, CSS positioning, display properties, use of CodePen, and coding a single-page site from a design.",
     prereqs:   "None",
@@ -917,7 +917,7 @@ var materials = [
     title:     "Introduction to Programming with Ruby",
     studentL:  "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/",
     teacherL:  "https://github.com/kcjonesevans/gdidayton-intro-ruby",
-    editL:     "https://github.com/kcjonesevans/gdidayton-intro-ruby",
+    editL:     "",
     duration:  12,
     covers:    "Variables, methods, datatypes, loops, conditionals, control flow, O-O intro, writing classes. Focus on core CS concepts.",
     prereqs:   "None",
@@ -926,4 +926,30 @@ var materials = [
     sequence:  "GDIDayton",
     status:    "unreviewed"
    },
+   {
+    title: "Intro to Command Line",
+    studentL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    teacherL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    editL: "",
+    duration: 2,
+    covers: "Terminal terminology. Working in directories including pwd, cd, ls, flags, mkdir, rmdir. Working with files including cat, more, less, touch, rm. Permissions management. Standard output and input, pipes, grep and filters. Processes. Accessing commands in history. Examples of real-world use of terminal.",
+    prereqs: "None",
+    tags: ["command-line"],
+    reviewL: "",
+    sequence: "GDIAustin",
+    status: "unreviewed"
+   },
+   {
+    title: "Intro to Mobile App Building with Salesforce",
+    studentL: "https://org62.my.salesforce.com/sfc/p/000000000062/a/30000000A3a3/iZYKssxp5fi1Rod3G2N9hYnukTwFqkcmLMPpeA.nuvE",
+    teacherL: "",
+    editL: "",
+    duration: 6,
+    covers: "Overview of using the Salesforce1 Platform to builhttp://sforce.co/1MhEiCKd a drag-and-drop mobile app. All slides: Class 1: Overview & Apps (http://sforce.co/1RVNIk4), Class 2: Data Modeling (http://sforce.co/1MhEiCK), Class 3: Modifying the User Experience (http://sforce.co/1MtJBdd), Class 4: Add Business Logic (http://sforce.co/1UHChkH), Class 5: Reports & Dashboards (http://sforce.co/1pSXgG1), Class 6: Customizing the Mobile Experience (http://sforce.co/21AJseV)",
+    prereqs: "None",
+    tags: ["mobile", "salesforce"],
+    reviewL: "",
+    sequence: "",
+    status: "unreviewed"
+   }
 ];
