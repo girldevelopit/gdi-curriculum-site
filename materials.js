@@ -28,7 +28,7 @@ var materials = [
     tags:      ["frontend", "backend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Intro to HTML/CSS",
@@ -41,7 +41,7 @@ var materials = [
     tags:      ["frontend", "html", "css"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "doesntmeet"
    },
    {
     title:     "Intro to JavaScript",
@@ -54,7 +54,7 @@ var materials = [
     tags:      ["javascript", "frontend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "doesntmeet"
    },
    {
     title:     "Intermediate HTML/CSS",
@@ -93,7 +93,7 @@ var materials = [
     tags:      ["git"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "doesntmeet"
    },
    {
     title:     "HTML101: HTML/CSS (Lecture-taught)",
@@ -664,7 +664,7 @@ var materials = [
     tags:      ["ruby", "rails", "backend"],
     reviewL:   "",
     sequence:  "Seattle-RoR",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Intro to Git/Github",
@@ -859,7 +859,7 @@ var materials = [
     tags:      ["html", "css"],
     reviewL:   "",
     sequence:  "",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Intro to AngularJS",
@@ -924,7 +924,7 @@ var materials = [
     tags: ["command-line"],
     reviewL: "",
     sequence: "GDIAustin",
-    status: "unreviewed"
+    status: "doesntmeet"
    },
    {
     title: "Unix Command Line Basics",
