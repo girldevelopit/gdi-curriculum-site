@@ -719,19 +719,6 @@ var materials = [
     status:    "unreviewed"
    },
    {
-    title:     "Intro to AngularJS",
-    studentL:  "http://danlucas.github.io/gdi-angular-intro-slides/#/",
-    teacherL:  "",
-    editL:     "https://github.com/danlucas/gdi-angular-intro-slides",
-    duration:  4,
-    covers:    "Covers AngularJS basics, data binding, modules, controllers, filters, and directives.",
-    prereqs:   "HTML, JS DOM API.",
-    tags:      ["frontend", "javascript", "angular"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
-   },
-   {
     title:     "Web hosting 101",
     studentL:  "http://mathemagica.github.io/gdi-hosting-in-30-minutes/",
     teacherL:  "",
