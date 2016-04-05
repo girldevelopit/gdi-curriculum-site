@@ -28,7 +28,7 @@ var materials = [
     tags:      ["frontend", "backend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:    "doesntmeet"
+    status:    "meetsrec"
    },
    {
     title:     "Intro to HTML/CSS",
@@ -41,7 +41,7 @@ var materials = [
     tags:      ["frontend", "html", "css"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "doesntmeet"
+    status:     "meetsrec"
    },
    {
     title:     "Intro to JavaScript",
@@ -54,7 +54,7 @@ var materials = [
     tags:      ["javascript", "frontend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "doesntmeet"
+    status:     "meetsreq"
    },
    {
     title:     "Intermediate HTML/CSS",
@@ -80,7 +80,7 @@ var materials = [
     tags:      ["frontend", "accessibility"],
     reviewL:   "https://drive.google.com/open?id=1YWhCzFDQa_b61wOEtE7HftYo13oEXFXd2V5dXLU-muE",
     sequence:  "Featured",
-    status:     "doesntmeet"
+    status:     "meetsrec"
    },
    {
     title:     "Intro to Git/Github",
@@ -93,23 +93,23 @@ var materials = [
     tags:      ["git"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "doesntmeet"
+    status:     "meetsrec"
    },
    {
-    title:     "HTML101: HTML & CSS (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/htmlcss-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/htmlcss-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  10,
-    covers:    "Covers basic HTML tags (links, images, tables, forms), CSS selectors (level 3), CSS text properties, and CSS layout.",
-    prereqs:   "None",
-    tags:      ["html", "css"],
+    title:     "Intro to AngularJS",
+    studentL:  "http://girldevelopit.github.io/gdi-angular/",
+    teacherL:  "",
+    editL:     "https://github.com/girldevelopit/gdi-angular",
+    duration:  4,
+    covers:    "Includes overview of MVC frameworks and covers expressions, built-in directives, controllers, $scope, dependency injection, and the future of Angular 2.0",
+    prereqs:   "HTML, basic JavaScript",
+    tags:      ["frontend", "javascript", "angular"],
     reviewL:   "",
-    sequence:  "GDISF",
-    status:    "unreviewed"
+    sequence:  "Featured",
+    status:    "meetsrec"
    },
    {
-    title:     "JS101: Intro to JS (Lecture-taught)",
+    title:     "JS101: Intro to JS",
     studentL:  "http://www.teaching-materials.org/javascript/",
     teacherL:  "",
     editL:    "https://github.com/gdisf/teaching-materials/tree/master/javascript",
@@ -120,19 +120,6 @@ var materials = [
     reviewL:   "https://drive.google.com/open?id=1DKHPPYxzoWNnjrv93pecU57Axpb8fJkJSXsrtSjNsJY",
     sequence:  "GDISF",
     status:     "unreviewed"
-   },
-   {
-    title:     "JS 101: Intro to JS (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/javascript-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/javascript-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  12,
-    covers:    "Covers JavaScript variables, functions, logic, loops, conditionals, and arrays, along with the ProcessingJS library.",
-    prereqs:   "None",
-    tags:      ["javascript"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:    "unreviewed"
    },
    {
     title:     "JS102: Arrays, Objects, and Functions (Review)",
@@ -148,7 +135,7 @@ var materials = [
     status:     "unreviewed"
    },
    {
-    title:     "JS 200: JS & the Web (Lecture-taught)",
+    title:     "JS 200: JS & the Web",
     studentL:  "http://www.teaching-materials.org/jsweb/",
     teacherL:  "",
     editL:    "https://github.com/gdisf/teaching-materials/tree/master/jsdom",
@@ -159,19 +146,6 @@ var materials = [
     reviewL:   "",
     sequence:  "GDISF",
     status:     "unreviewed"
-   },
-   {
-    title:     "JS 200: JS & the Web (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/jsweb-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/jsweb-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  6,
-    covers:    "Covers DOM access, DOM modification, DOM events, and DOM animation.",
-    prereqs:   "HTML/CSS fundamentals, JavaScript fundamentals.",
-    tags:      ["frontend", "javascript"],
-    reviewL:   "GDISF",
-    sequence:  "",
-    status:    "unreviewed"
    },
    {
     title:     "JS 201: JS and the DOM (Review)",
@@ -470,19 +444,6 @@ var materials = [
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
-   },
-   {
-    title:     "Intro to JavaScript and jQuery",
-    studentL:  "",
-    teacherL:  "",
-    editL:     "https://github.com/gdiottawa/intro-jquery",
-    duration:  7,
-    covers:    "Covers JavaScript, APIs, jQuery, and APIs.",
-    prereqs:   "HTML and CSS fundamentals.",
-    tags:      [],
-    reviewL:   "",
-    sequence:  "",
-    status:    "doesntmeet"
    },
    {
     title:     "Intro to Programming with Python",
@@ -805,19 +766,6 @@ var materials = [
     covers:    "Covers fluid grids, flexible images, CSS media queries, and Foundation framework.",
     prereqs:   "HTML/CSS fundamentals.",
     tags:      ["html", "css"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "doesntmeet"
-   },
-   {
-    title:     "Intro to AngularJS",
-    studentL:  "http://ahoef.co/gdi-angular/slides",
-    teacherL:  "",
-    editL:     "https://github.com/ahoef/gdi-angular",
-    duration:  4,
-    covers:    "Includes overview of MVC frameworks and covers expressions, built-in directives, controllers, $scope, dependency injection, and the future of Angular 2.0",
-    prereqs:   "HTML, basic JavaScript",
-    tags:      ["frontend", "javascript", "angular"],
     reviewL:   "",
     sequence:  "",
     status:    "doesntmeet"
