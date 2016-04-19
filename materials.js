@@ -110,7 +110,7 @@ var materials = [
    },
    {
     title:     "Intro to AngularJS",
-    studentL:  "http://girldevelopit.github.io/gdi-angular/",
+    studentL:  "https://www.girldevelopit.com/materials/intro-to-angular",
     teacherL:  "",
     editL:     "https://github.com/girldevelopit/gdi-featured-angular",
     duration:  4,
