@@ -57,6 +57,19 @@ var materials = [
     status:     "meetsreq"
    },
    {
+    title:     "Intro to JavaScript",
+    studentL:  "http://roenok.github.io/gdi-intro-javascript/",
+    teacherL:  "",
+    editL:    "https://github.com/Roenok/gdi-intro-javascript",
+    duration:  8,
+    covers:    "This course is a slower version of the current featured curriculum, with additional in-class and homework exercises. It does not include any information about animations.",
+    prereqs:   "Assumes familiarity with HTML/CSS",
+    tags:      ["javascript", "frontend"],
+    reviewL:   "",
+    sequence:  "",
+    status:     "unreviewed"
+   },
+   {
     title:     "Intermediate HTML/CSS",
     studentL:  "https://www.girldevelopit.com/materials/inter-html",
     teacherL:  "",
