@@ -882,9 +882,23 @@ var materials = [
      duration:  4,
      covers:    "Workspaces, file types, layers, image manipulation overview, artboards, layer comps, exporting assets",
      prereqs:   "None",
-     tags:      ["photoshop, design"],
+     tags:      ["photoshop","design"],
      reviewL:   "",
      sequence:  "GDIDayton",
      status:    "unreviewed"
+   },
+   {
+     title:     "Better Web Debugging: Developer Tools Workshop",
+     studentL:  "http://gdibtv.github.io/gdi-developer-tools/#/",
+     teacherL:  "http://gdibtv.github.io/gdi-developer-tools/#/",
+     editL:     "https://github.com/GDIBTV/gdi-developer-tools",
+     duration:  2.5,
+     covers:    "Overview of Chrome Developer Tools for debugging CSS and JS, and performance auditing. Touches on each tab in Dev Tools.",
+     prereqs:   "None",
+     tags:      ["frontend","css","javascript"],
+     reviewL:   "",
+     sequence:  "",
+     status:    "unreviewed"
    }
+   
 ];
