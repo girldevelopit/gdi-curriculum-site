@@ -589,6 +589,19 @@ var materials = [
     status:    "doesntmeet"
    },
    {
+    title:     "Intro to Ruby on Rails",
+    studentL:  "",
+    teacherL:  "",
+    editL:     "https://github.com/gdi-abq/gdi-rails",
+    duration:  8,
+    covers:    "Covers Rails basics, ActiveRecord, ActiveMailer, and command line generators.",
+    prereqs:   "HTML, javascript or basic programming",
+    tags:      ["ruby", "rails", "mvc", "database"],
+    reviewL:   "",
+    sequence:  "",
+    status:    "unreviewed"
+   },
+   {
     title:     "Intro to Git/Github",
     studentL:  "http://feministy.github.io/gdi-core-git-github",
     teacherL:  "",
