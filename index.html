@@ -3,6 +3,7 @@
  <head>
   <meta charset="utf-8"/>
   <title>Girl Develop It - Teaching Materials</title>
+  <link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <style>
   .status-filter label {
@@ -28,7 +29,7 @@
   }
 
   .links a:last-child:after {
-     content: "";   
+     content: "";
   }
 
   .reset-btn {
@@ -44,10 +45,10 @@
 
 	<div class="container">
 		<h1 class="page-header">Girl Develop It - Teaching materials</h1>
-		
+
     	<form class="form-inline" style="text-align: left;">
 
-    		
+
     		<fieldset class="status-filter">
     			Status:
     			<label class="bg-warning"><input type="checkbox" value="unreviewed" checked>Unreviewed</input></label>
@@ -59,9 +60,9 @@
     		<button type="button" class="reset-btn btn btn-default btn-sm">Reset filters</button>
     		<fieldset class="tag-filter">
     		</fieldset>
-    		
+
 		</form>
-	
+
 		<table class="materials-table table table-bordered">
 			<thead>
 				<tr>
@@ -73,7 +74,7 @@
 			</thead>
 			<tbody></tbody>
 		</table>
-		
+
 
 		<p>
 			Want to submit your chapter's materials for review here?
@@ -86,9 +87,10 @@
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 	<script src="materials.js"></script>;
 	<script>
-	
+
 	function renderAll(materials) {
 		var tags = [];
 
@@ -113,7 +115,7 @@
 				makeTag(tag);
 			});
 		}
-		
+
 		var getTag = function() {
 			return $('.tag-filter input:checked').val();
 		};
@@ -133,7 +135,7 @@
 			var sequence = options.sequence || null;
 			var statuses = options.statuses || getStatuses() || null;
 
-			var $materialsTable = $('.materials-table tbody');
+			const $materialsTable = $('.materials-table tbody');
 			$materialsTable.empty();
 			$.each(materials, function(i, material) {
 
@@ -153,13 +155,13 @@
 					.appendTo($row);
 
 				var statusMap = {
-					'unreviewed': 
+					'unreviewed':
 						{'text': 'Not reviewed.', 'class': 'bg-warning'},
-					'doesntmeet': 
+					'doesntmeet':
 						{'text': 'Does not meet requirements.', 'class': 'bg-danger'},
-					'meetsreq': 
+					'meetsreq':
 						{'text': 'Meets requirements.', 'class': 'bg-info'},
-					'meetsrec': 
+					'meetsrec':
 						{'text': 'Meets requirements and recommendations.', 'class': 'bg-success'},
 
 				}
@@ -198,7 +200,7 @@
 							renderMaterials(materials, {sequence: material.sequence});
 						});
 				}
-				
+
 				$('<span>Part of ' + material.sequence + 'sequence</span>')
 				$('<td>')
 					.append(material.covers)
@@ -212,7 +214,7 @@
 					.appendTo($row);
 
 				$('<td>')
-					
+
 					//.appendTo($row);
 				$materialsTable.append($row);
 			});
@@ -242,6 +244,7 @@
 	}
 
 	renderAll(materials);
+  $('.materials-table tbody').DataTable();
 	</script>
  </body>
 </html>
