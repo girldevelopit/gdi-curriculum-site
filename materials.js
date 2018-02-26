@@ -823,6 +823,19 @@ var materials = [
     status:    "unreviewed"
    },
    {
+    title:     "Introduction to Programming Concepts",
+    studentL:  "https://gdidayton.github.io/into-to-p…",
+    teacherL:  "https://github.com/gdidayton/into-to-programming-concepts",
+    editL:     "https://github.com/gdidayton/into-to-programming-concepts",
+    duration:  3,
+    covers:    "CS History, Variables, methods, datatypes, loops, conditionals, control flow, O-O intro, writing classes. Focus on core CS concepts.",
+    prereqs:   "None",
+    tags:      ["intro",],
+    reviewL:   "",
+    sequence:  "GDIDayton",
+    status:    "unreviewed"
+   },
+   {
     title:     "Introduction to Programming with Ruby",
     studentL:  "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/",
     teacherL:  "https://github.com/kcjonesevans/gdidayton-intro-ruby",
