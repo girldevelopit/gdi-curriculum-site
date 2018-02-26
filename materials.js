@@ -19,48 +19,61 @@
 var materials = [
    {
     title:     "Intro to Web Concepts",
-    studentL:  "",
+    studentL:  "https://www.girldevelopit.com/materials/intro-web",
     teacherL:  "",
-    editL:     "https://github.com/girldevelopit/gdi-intro-web-concepts",
+    editL:     "https://github.com/girldevelopit/gdi-featured-web-concepts",
     duration:  3,
     covers:    "Covers the fundamentals of web development in layman terms. Teaches basic concepts like the difference between a client and a server, the difference between backend and front end code, the tools needed to develop a website, and the typical web development team.",
     prereqs:   "None",
     tags:      ["frontend", "backend"],
     reviewL:   "",
     sequence:  "Featured",
-    status:    "unreviewed"
+    status:    "meetsrec"
    },
    {
     title:     "Intro to HTML/CSS",
     studentL:  "https://www.girldevelopit.com/materials/html-intro",
     teacherL:  "",
-    editL:    "https://github.com/girldevelopit/gdi-core-html-css",
+    editL:    "https://github.com/girldevelopit/gdi-featured-html-css-intro",
     duration:  8,
     covers:    "Covers basic HTML tags, HTML validation, CSS positioning, and CSS positioning.",
     prereqs:   "None",
     tags:      ["frontend", "html", "css"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "meetsrec"
    },
    {
     title:     "Intro to JavaScript",
     studentL:  "https://www.girldevelopit.com/materials/intro-js",
     teacherL:  "",
-    editL:    "https://github.com/girldevelopit/gdi-intro-js/",
+    editL:    "https://github.com/girldevelopit/gdi-featured-js-intro",
     duration:  8,
     covers:    "These materials cover basic programming concepts like variables, data types, and functions, if/then statements, arrays and loops. They also introduce the Document Object Model (DOM) and how to use JavaScript to interact with the DOM and change HTML pages. ",
     prereqs:   "Assumes familiarity with HTML/CSS",
     tags:      ["javascript", "frontend"],
     reviewL:   "",
     sequence:  "Featured",
+    status:     "meetsreq"
+   },
+   {
+    title:     "Intro to JavaScript",
+    studentL:  "http://roenok.github.io/gdi-intro-javascript/",
+    teacherL:  "",
+    editL:    "https://github.com/Roenok/gdi-intro-javascript",
+    duration:  8,
+    covers:    "This course is a slower version of the current featured curriculum, with additional in-class and homework exercises. It does not include any information about animations.",
+    prereqs:   "Assumes familiarity with HTML/CSS",
+    tags:      ["javascript", "frontend"],
+    reviewL:   "",
+    sequence:  "",
     status:     "unreviewed"
    },
    {
     title:     "Intermediate HTML/CSS",
     studentL:  "https://www.girldevelopit.com/materials/inter-html",
     teacherL:  "",
-    editL:    "https://github.com/girldevelopit/gdi-core-intermediate-html-css",
+    editL:    "https://github.com/girldevelopit/gdi-featured-html-css-intermediate",
     duration:  8,
     covers:    "Covers HTML 5 and CSS 3, standard design practices like reset stylesheets, fixed nav menus, hero images, web fonts, animations, plus the basics of responsive design.",
     prereqs:   "Basic HTML and CSS",
@@ -73,82 +86,43 @@ var materials = [
     title:     "Web Accessibility",
     studentL:  "https://www.girldevelopit.com/materials/web-accessibility",
     teacherL:  "",
-    editL:    "https://github.com/girldevelopit/girldevelopit-rdu-access",
+    editL:    "https://github.com/girldevelopit/gdi-featured-accessibility",
     duration:  2,
     covers:    "Covers types of disabilities, screen readers, basic HTML improvements (alt tags), and UX tips.",
     prereqs:   "HTML",
     tags:      ["frontend", "accessibility"],
     reviewL:   "https://drive.google.com/open?id=1YWhCzFDQa_b61wOEtE7HftYo13oEXFXd2V5dXLU-muE",
     sequence:  "Featured",
-    status:     "meetsreq"
+    status:     "meetsrec"
    },
    {
     title:     "Intro to Git/Github",
     studentL:  "https://www.girldevelopit.com/materials/intro-git-github",
     teacherL:  "",
-    editL:     "https://github.com/girldevelopit/gdi-core-git-github",
+    editL:     "https://github.com/girldevelopit/gdi-featured-git-github",
     duration:  2,
     covers:    "Covers the basics of using Git to manage software and sharing code repositories through the site GitHub.",
     prereqs:   "Command-line experience",
     tags:      ["git"],
     reviewL:   "",
     sequence:  "Featured",
-    status:     "unreviewed"
+    status:     "meetsrec"
    },
    {
-    title:     "HTML101: HTML/CSS (Lecture-taught)",
-    studentL:  "http://www.teaching-materials.org/htmlcss-1day/",
+    title:     "Intro to AngularJS",
+    studentL:  "https://www.girldevelopit.com/materials/intro-to-angular",
     teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/htmlcss-1day",
-    duration:  10,
-    covers:    "Covers HTML tags (links, tables, forms, media), CSS selectors, and CSS positioning.",
-    prereqs:   "None",
-    tags:      ["frontend", "html", "css"],
+    editL:     "https://github.com/girldevelopit/gdi-featured-angular",
+    duration:  4,
+    covers:    "Includes overview of MVC frameworks and covers expressions, built-in directives, controllers, $scope, dependency injection, and the future of Angular 2.0",
+    prereqs:   "HTML, basic JavaScript",
+    tags:      ["frontend", "javascript", "angular"],
     reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
+    sequence:  "Featured",
+    status:    "meetsrec"
    },
    {
-    title:     "HTML101: HTML & CSS (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/htmlcss-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/htmlcss-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  10,
-    covers:    "Covers basic HTML tags (links, images, tables, forms), CSS selectors (level 3), CSS text properties, and CSS layout.",
-    prereqs:   "None",
-    tags:      ["html", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:    "unreviewed"
-   },
-   {
-    title:     "CSS3",
-    studentL:  "http://www.teaching-materials.org/css3/#slide1",
-    teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/css3",
-    duration:  5,
-    covers:    "Covers CSS3 selectors and CSS3 properties.",
-    prereqs:   "Basic CSS",
-    tags:      ["frontend", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
-   },
-   {
-    title:     "CSS Tools & Techniques",
-    studentL:  "http://www.teaching-materials.org/csstools/",
-    teacherL:  "",
-    editL:    "https://github.com/gdisf/teaching-materials/tree/master/csstools",
-    duration:  3,
-    covers:    "Covers best practices for cross-browser CSS, CSS media queries, and CSS grids/resets/frameworks.",
-    prereqs:   "Basic CSS",
-    tags:      ["frontend", "css"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:     "unreviewed"
-   },
-   {
-    title:     "JS101: Intro to JS (Lecture-taught)",
+    title:     "JS101: Intro to JS",
     studentL:  "http://www.teaching-materials.org/javascript/",
     teacherL:  "",
     editL:    "https://github.com/gdisf/teaching-materials/tree/master/javascript",
@@ -159,19 +133,6 @@ var materials = [
     reviewL:   "https://drive.google.com/open?id=1DKHPPYxzoWNnjrv93pecU57Axpb8fJkJSXsrtSjNsJY",
     sequence:  "GDISF",
     status:     "unreviewed"
-   },
-   {
-    title:     "JS 101: Intro to JS (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/javascript-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/javascript-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  12,
-    covers:    "Covers JavaScript variables, functions, logic, loops, conditionals, and arrays, along with the ProcessingJS library.",
-    prereqs:   "None",
-    tags:      ["javascript"],
-    reviewL:   "",
-    sequence:  "GDISF",
-    status:    "unreviewed"
    },
    {
     title:     "JS102: Arrays, Objects, and Functions (Review)",
@@ -187,7 +148,7 @@ var materials = [
     status:     "unreviewed"
    },
    {
-    title:     "JS 200: JS & the Web (Lecture-taught)",
+    title:     "JS 200: JS & the Web",
     studentL:  "http://www.teaching-materials.org/jsweb/",
     teacherL:  "",
     editL:    "https://github.com/gdisf/teaching-materials/tree/master/jsdom",
@@ -198,19 +159,6 @@ var materials = [
     reviewL:   "",
     sequence:  "GDISF",
     status:     "unreviewed"
-   },
-   {
-    title:     "JS 200: JS & the Web (Self-paced)",
-    studentL:  "http://www.teaching-materials.org/jsweb-selfpaced/",
-    teacherL:  "http://www.teaching-materials.org/jsweb-selfpaced/lessonplan.html",
-    editL:     "",
-    duration:  6,
-    covers:    "Covers DOM access, DOM modification, DOM events, and DOM animation.",
-    prereqs:   "HTML/CSS fundamentals, JavaScript fundamentals.",
-    tags:      ["frontend", "javascript"],
-    reviewL:   "GDISF",
-    sequence:  "",
-    status:    "unreviewed"
    },
    {
     title:     "JS 201: JS and the DOM (Review)",
@@ -459,32 +407,6 @@ var materials = [
     status:    "doesntmeet"
    },
    {
-    title:     "Web Hosting",
-    studentL:  "http://www.teaching-materials.org/hosting/slides.html",
-    teacherL:  "",
-    editL:     "https://github.com/gdisf/teaching-materials/tree/master/hosting",
-    duration:  1,
-    covers:    "Covers type of web hosting and what to look for in a good host.",
-    prereqs:   "None",
-    tags:      ["backend"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
-   },
-   {
-    title:     "Web Domains",
-    studentL:  "http://www.teaching-materials.org/domains/slides.html",
-    teacherL:  "",
-    editL:     "https://github.com/gdisf/teaching-materials/tree/master/domains",
-    duration:  1,
-    covers:    "Covers how domain names work and how to register them.",
-    prereqs:   "None",
-    tags:      ["backend"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
-   },
-   {
     title:     "Version control & Git",
     studentL:  "http://www.teaching-materials.org/git/slides.html",
     teacherL:  "",
@@ -527,7 +449,7 @@ var materials = [
     title:     "Intro to Java with Android development",
     studentL:  "",
     teacherL:  "",
-    editL:     "https://github.com/girldevelopit/gdi-intro-android",
+    editL:     "https://github.com/gdi-curriculum-review/gdi-android-intro",
     duration:  8,
     covers:    "Unknown",
     prereqs:   "Unknown",
@@ -535,19 +457,6 @@ var materials = [
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
-   },
-   {
-    title:     "Intro to JavaScript and jQuery",
-    studentL:  "",
-    teacherL:  "",
-    editL:     "https://github.com/gdiottawa/intro-jquery",
-    duration:  7,
-    covers:    "Covers JavaScript, APIs, jQuery, and APIs.",
-    prereqs:   "HTML and CSS fundamentals.",
-    tags:      [],
-    reviewL:   "",
-    sequence:  "",
-    status:    "doesntmeet"
    },
    {
     title:     "Intro to Programming with Python",
@@ -677,6 +586,19 @@ var materials = [
     tags:      ["ruby", "rails", "backend"],
     reviewL:   "",
     sequence:  "Seattle-RoR",
+    status:    "doesntmeet"
+   },
+   {
+    title:     "Intro to Ruby on Rails",
+    studentL:  "",
+    teacherL:  "",
+    editL:     "https://github.com/gdi-abq/gdi-rails",
+    duration:  8,
+    covers:    "Covers Rails basics, ActiveRecord, ActiveMailer, and command line generators.",
+    prereqs:   "HTML, javascript or basic programming",
+    tags:      ["ruby", "rails", "mvc", "database"],
+    reviewL:   "",
+    sequence:  "",
     status:    "unreviewed"
    },
    {
@@ -714,19 +636,6 @@ var materials = [
     covers:    "Recent (July 2015) intro to iOS development. Covers Xcode, Swift, the MVC model, and App & View Lifecycle. Slides are HTML",
     prereqs:   "Comfortable with at least one other programming language.",
     tags:      ["ios", "mobile", "swift"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
-   },
-   {
-    title:     "Intro to AngularJS",
-    studentL:  "http://danlucas.github.io/gdi-angular-intro-slides/#/",
-    teacherL:  "",
-    editL:     "https://github.com/danlucas/gdi-angular-intro-slides",
-    duration:  4,
-    covers:    "Covers AngularJS basics, data binding, modules, controllers, filters, and directives.",
-    prereqs:   "HTML, JS DOM API.",
-    tags:      ["frontend", "javascript", "angular"],
     reviewL:   "",
     sequence:  "",
     status:    "unreviewed"
@@ -885,20 +794,7 @@ var materials = [
     tags:      ["html", "css"],
     reviewL:   "",
     sequence:  "",
-    status:    "unreviewed"
-   },
-   {
-    title:     "Intro to AngularJS",
-    studentL:  "http://ahoef.co/gdi-angular/slides",
-    teacherL:  "",
-    editL:     "https://github.com/ahoef/gdi-angular",
-    duration:  4,
-    covers:    "Includes overview of MVC frameworks and covers expressions, built-in directives, controllers, $scope, dependency injection, and the future of Angular 2.0",
-    prereqs:   "HTML, basic JavaScript",
-    tags:      ["frontend", "javascript", "angular"],
-    reviewL:   "",
-    sequence:  "",
-    status:    "unreviewed"
+    status:    "doesntmeet"
    },
    {
     title:     "Intro to Programming Concepts",
@@ -917,7 +813,7 @@ var materials = [
     title:     "Intro to HTML/CSS (Project-Based)",
     studentL:  "http://gdiboston.github.io/gdi-core-html-css",
     teacherL:  "https://github.com/gdiboston/gdi-core-html-css/blob/master/README.md",
-    editL:     "https://github.com/gdiboston/gdi-core-html-css",
+    editL:     "",
     duration:  8,
     covers:    "Covers basic HTML tags with an emphasis on HTML5, CSS positioning, display properties, use of CodePen, and coding a single-page site from a design.",
     prereqs:   "None",
@@ -925,5 +821,97 @@ var materials = [
     reviewL:   "",
     sequence:  "GDIBoston",
     status:    "unreviewed"
+   },
+   {
+    title:     "Introduction to Programming with Ruby",
+    studentL:  "http://kcjonesevans.github.io/gdidayton-intro-ruby/#/",
+    teacherL:  "https://github.com/kcjonesevans/gdidayton-intro-ruby",
+    editL:     "",
+    duration:  12,
+    covers:    "Variables, methods, datatypes, loops, conditionals, control flow, O-O intro, writing classes. Focus on core CS concepts.",
+    prereqs:   "None",
+    tags:      ["ruby"],
+    reviewL:   "",
+    sequence:  "GDIDayton",
+    status:    "unreviewed"
+   },
+   {
+    title: "Intro to Command Line",
+    studentL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    teacherL: "http://slides.com/jaredstilwell/intro-to-command-line",
+    editL: "",
+    duration: 2,
+    covers: "Terminal terminology. Working in directories including pwd, cd, ls, flags, mkdir, rmdir. Working with files including cat, more, less, touch, rm. Permissions management. Standard output and input, pipes, grep and filters. Processes. Accessing commands in history. Examples of real-world use of terminal.",
+    prereqs: "None",
+    tags: ["command-line"],
+    reviewL: "",
+    sequence: "GDIAustin",
+    status: "doesntmeet"
+   },
+   {
+    title: "Unix Command Line Basics",
+    studentL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    teacherL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    editL: "http://gdiminneapolis.com/classes/CommandLine_Liz/slideshow/index.html",
+    duration: 2,
+    covers: "Cover basics of directory and file traversal, finding and searching for files and content, and using many of the powerful tools that come along with most Unix Shells. If we’re being totally honest, this is an Intro to Unix, but it’s from the angle of ‘getting things done’ rather than technical depth or purity",
+    prereqs: "None",
+    tags: ["command-line"],
+    reveiwL: "",
+    sequence: "GDIMinneapolis",
+    status: "unreviewed"
+   },
+   {
+    title: "Intro to Mobile App Building with Salesforce",
+    studentL: "https://org62.my.salesforce.com/sfc/p/000000000062/a/30000000A3a3/iZYKssxp5fi1Rod3G2N9hYnukTwFqkcmLMPpeA.nuvE",
+    teacherL: "",
+    editL: "",
+    duration: 6,
+    covers: "Overview of using the Salesforce1 Platform to builhttp://sforce.co/1MhEiCKd a drag-and-drop mobile app. All slides: Class 1: Overview & Apps (http://sforce.co/1RVNIk4), Class 2: Data Modeling (http://sforce.co/1MhEiCK), Class 3: Modifying the User Experience (http://sforce.co/1MtJBdd), Class 4: Add Business Logic (http://sforce.co/1UHChkH), Class 5: Reports & Dashboards (http://sforce.co/1pSXgG1), Class 6: Customizing the Mobile Experience (http://sforce.co/21AJseV)",
+    prereqs: "None",
+    tags: ["mobile", "salesforce"],
+    reviewL: "",
+    sequence: "",
+    status: "unreviewed"
+   },
+   {
+    title: "Intro to Ruby",
+    studentL: "http://kyfast.net/gdi-ruby/#/",
+    teacherL: "http://kyfast.net/gdi-ruby/#/",
+    editL: "https://github.com/KyFaSt/gdi-ruby",
+    duration: 10,
+    covers: "The command line and why we use it. Strings, Arrays, Variables, Objects, Loops, Files. Object concepts like Messages, Methods, and Classes. How to run your Ruby code interactively (irb) or from a file. Writing command line programs to run on your own computer",
+    prereqs: "None",
+    tags: ["ruby"],
+    reviewL: "",
+    sequence: "GDIAtlanta",
+    status: "unreviewed"
+   },
+   {
+     title:     "Photoshop for Web Design",
+     studentL:  "http://casalett.net/gdi-photoshop/",
+     teacherL:  "",
+     editL:     "https://www.dropbox.com/s/kjv69kr4ihs7sv9/gdi-photoshop-for-web-design.zip?dl=0",
+     duration:  4,
+     covers:    "Workspaces, file types, layers, image manipulation overview, artboards, layer comps, exporting assets",
+     prereqs:   "None",
+     tags:      ["photoshop","design"],
+     reviewL:   "",
+     sequence:  "GDIDayton",
+     status:    "unreviewed"
+   },
+   {
+     title:     "Better Web Debugging: Developer Tools Workshop",
+     studentL:  "http://gdibtv.github.io/gdi-developer-tools/#/",
+     teacherL:  "http://gdibtv.github.io/gdi-developer-tools/#/",
+     editL:     "https://github.com/GDIBTV/gdi-developer-tools",
+     duration:  2.5,
+     covers:    "Overview of Chrome Developer Tools for debugging CSS and JS, and performance auditing. Touches on each tab in Dev Tools.",
+     prereqs:   "None",
+     tags:      ["frontend","css","javascript"],
+     reviewL:   "",
+     sequence:  "",
+     status:    "unreviewed"
    }
+   
 ];
