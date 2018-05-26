@@ -277,6 +277,32 @@ var materials = [
     status:     "unreviewed"
    },
    {
+    title:     "React 101: Introduction to React ",
+    studentL:  "",
+    teacherL:  "",
+    editL:    "https://github.com/arilaen/gdi-intro-react-js",
+    duration:  8,
+    covers:    "Covers ReactJS class and stateless components, props, and state.",
+    prereqs:   "ReactJS fundamentals",
+    tags:      ["frontend", "javascript", "react"],
+    reviewL:   "",
+    sequence:  "",
+    status:     "unreviewed"
+   },
+   {
+    title:     "Redux 101: Introduction to Redux",
+    studentL:  "",
+    teacherL:  "",
+    editL:    "https://github.com/arilaen/gdi-intro-redux-js",
+    duration:  8,
+    covers:    "Covers JavaScript global state management with Redux in React applications",
+    prereqs:   "Redux fundamentals",
+    tags:      ["frontend", "javascript", "react", "redux"],
+    reviewL:   "",
+    sequence:  "",
+    status:     "unreviewed"
+   },
+   {
     title:     "JS410: D3.JS",
     studentL:  "http://www.teaching-materials.org/d3/#/",
     teacherL:  "",
